@@ -17,6 +17,15 @@ def create_window():
     #set basics of window
     window.title("Wise Horse of Financial Wisdom")
     window.geometry("400x400")
+    window.mainloop()
+
+
+#load image to window
+def display_image(image):
+    picLabel = tkinter.Label(window, image=image)
+    picLabel.pack()
+
+    
 
 
 
